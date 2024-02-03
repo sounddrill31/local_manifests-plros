@@ -59,8 +59,8 @@
   <remove-project name="LineageOS/android_packages_services_Telephony" />
   <remove-project name="LineageOS/android_system_core" />
   <remove-project name="LineageOS/android_vendor_lineage" />-->
-  <remove-project name="platform/art" />
-  <remove-project name="platform/external/roboto-fonts" />
+  <!--<remove-project name="platform/art" />
+  <remove-project name="platform/external/roboto-fonts" />-->
 
   <project path="build/soong" name="plros/build_soong" groups="pdk,tradefed" >
     <linkfile src="root.bp" dest="Android.bp" />
